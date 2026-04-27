@@ -1,4 +1,4 @@
-# Travail local
+# Travailler localement avec Git
 
 Durant cette étape, on passera en revue les commandes de base de Git et on réalisera nos premiers commits.
 
