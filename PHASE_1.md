@@ -4,6 +4,8 @@ Durant cette étape, on passera en revue les commandes de base de Git et on réa
 
 ## Les commandes de bases
 
+> Les commandes fournies ici peuvent pour la majoritaire réaliser à l'aide de l'interface graphique de `VScode`.
+
 - Intialiser le suivi Git dans un dossier :
 
     ```bash
@@ -36,15 +38,26 @@ Durant cette étape, on passera en revue les commandes de base de Git et on réa
     ```bash
     git log --pretty=oneline
     ```
+- Annuler votre dernier commit
+    ```bash
+    git reset --soft HEAD~1
+    ```
+    > Vous pouvez remplacer 1 par un entier positif pour annuler autant de derniers commits que voulu. Par exemple `git reset --soft HEAD~5` annulera vos 5 derniers commits.
 
 ## Excercices 
 
-1. Créer un fichier texte et faire son premier commit
-2. Réaliser divers modifications et enchaîner les commits
-3. Introduire volontaire une erreur et essayer de la corriger 
-4. Introduire un fichier binaire et réaliser un commit  
+1. Créer un fichier texte et faire son premier commit.
+2. Réaliser divers modifications et enchaîner les commits.
+3. Introduire volontaire une erreur et essayer de la corriger.
+4. Introduire un fichier binaire et réaliser un commit.
+5. Exclure des fichiers du suivi de Git.
 
-## Bonus
+    > Réfléchir à des bonnes pratiques.
 
-- Il existe des guides/cenventions ([voir ici](https://www.conventionalcommits.org/en/v1.0.0/#specification), [ou là](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) encadrant la rédaction des commits. Cette convention relève plutôt des bonnes pratiques informatiques.
+## Remarques
 
+- Il existe des guides/conventions ([voir ici](https://www.conventionalcommits.org/en/v1.0.0/#specification), [ou là](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) encadrant la rédaction des commits. Cette convention relève plutôt des bonnes pratiques informatiques.
+
+## Bonnes pratiques
+
+...
