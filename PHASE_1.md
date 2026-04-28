@@ -39,10 +39,10 @@ Durant cette étape, on passera en revue les commandes de base de Git et on réa
 
 ## Excercices 
 
-1 - Créer un fichier texte et faire son premier commit
-2 - Réaliser divers modifications et enchaîner les commits
-3 - Introduire volontaire une erreur et essayer de la corriger 
-4 - Introduire un fichier binaire et réaliser un commit  
+1. Créer un fichier texte et faire son premier commit
+2. Réaliser divers modifications et enchaîner les commits
+3. Introduire volontaire une erreur et essayer de la corriger 
+4. Introduire un fichier binaire et réaliser un commit  
 
 ## Bonus
 
