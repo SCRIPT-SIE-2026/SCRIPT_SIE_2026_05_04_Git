@@ -2,57 +2,63 @@
 
 Durant cette étape, on passera en revue les commandes de base de Git et on réalisera nos premiers commits.
 
-## Les commandes de bases
+## Les commandes de base
 
-> Les commandes fournies ici peuvent pour la majoritaire réaliser à l'aide de l'interface graphique de `VScode`.
+> Les commandes fournies ici peuvent, pour la plupart, être réalisées à l'aide de l'interface graphique de `VS Code`.
 
-- Intialiser le suivi Git dans un dossier :
+- Initialiser le suivi Git dans un dossier :
 
     ```bash
     git init
     ```
 
-- Suivre l'état d'un dépot :
+- Suivre l'état d'un dépôt :
 
     ```bash
     git status
     ```
 
-- Ajouter un fichier au suivi 
+- Ajouter un fichier au suivi :
 
     ```bash
     git add mon_fichier.txt
     ```
 
-- Faire un commit 
+- Faire un commit :
 
     ```bash
     git commit -m "Description du commit"
     ```
 
-- Voir l'historique des commits
+- Voir l'historique des commits :
+
     ```bash
     git log
     ```
-    ou pour une vision plus compacte
+
+    Ou, pour une vision plus compacte :
+
     ```bash
     git log --pretty=oneline
     ```
-- Annuler votre dernier commit
+
+- Annuler votre dernier commit :
+
     ```bash
     git reset --soft HEAD~1
     ```
-    > Vous pouvez remplacer 1 par un entier positif pour annuler autant de derniers commits que voulu. Par exemple `git reset --soft HEAD~5` annulera vos 5 derniers commits.
 
-## Excercices 
+    > Vous pouvez remplacer `1` par un entier positif pour annuler autant de derniers commits que souhaité. Par exemple, `git reset --soft HEAD~5` annulera vos 5 derniers commits.
+
+## Exercices
 
 1. Créer un fichier texte et faire son premier commit.
-2. Réaliser divers modifications et enchaîner les commits.
-3. Introduire volontaire une erreur et essayer de la corriger.
+2. Réaliser diverses modifications et enchaîner les commits.
+3. Introduire volontairement une erreur et essayer de la corriger.
 4. Introduire un fichier binaire et réaliser un commit.
 5. Exclure des fichiers du suivi de Git.
 
-    > Réfléchir à des bonnes pratiques.
+    > Réfléchir à de bonnes pratiques.
 
 ## Remarques
 

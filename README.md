@@ -1,10 +1,11 @@
-# SCRIPT Block 2: Managing projects with Git
+# SCRIPT Bloc 2 : gérer des projets avec Git
 
 ## Prérequis
 
-Cette formation nécessite certains prérequis qui devront être **réalisés avant la formation**.
+Cette formation nécessite certains prérequis qui devront être **remplis avant la formation**.
 
 ### Logiciels à installer
+
 Nous ne fournissons pas de PC. Vous devez venir avec un ordinateur qui fonctionne et sur lequel vous pouvez installer des logiciels.
 Cette formation nécessite l'installation de divers logiciels sur votre machine, listés ci-après.
 
@@ -22,9 +23,8 @@ Il est indispensable que tous ces logiciels soient installés et configurés.
 
 ### Compte GitHub
 
-Pour explorer les joies du projet collaboratif avec Git, nous utiliserons la plateforme GitHub. 
+Pour explorer les joies du projet collaboratif avec Git, nous utiliserons la plateforme GitHub.
 Il vous faudra donc créer un compte sur le site de [GitHub](https://github.com/).
-
 
 ## Trame de formation
 
