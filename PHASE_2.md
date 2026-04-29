@@ -4,7 +4,7 @@ Par défaut, vos commits sont créés sur la branche principale de votre projet,
 Une branche est un pointeur vers un commit.
 Il est possible de créer d'autres branches et de basculer vers celles-ci afin de tester une fonctionnalité avant de l'intégrer à votre branche principale, par exemple.
 
-> `Git Graph` ([ici](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)) est une extension VS Code qui peut vous permettre de mieux visualiser vos branches.
+> `Git Graph` ([ici](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)) est une extension de VS Code qui peut vous permettre de mieux visualiser vos branches.
 
 ## Commandes associées
 
@@ -42,13 +42,11 @@ Il est possible de créer d'autres branches et de basculer vers celles-ci afin d
 
 ## Exercices
 
-1. Sur la branche main, en décomposant ces étapes en plusieurs commits, créer un fichier texte et y ajouter quelques lignes.
+1. Sur la branche `main`, en décomposant ces étapes en plusieurs commits, créer un fichier texte et y ajouter quelques lignes.
 2. Créer une nouvelle branche, ajouter une nouvelle ligne à votre fichier et faire un commit.
 3. Réaliser une fusion de cette nouvelle branche depuis votre branche principale.
 4. Annuler votre fusion.
 5. Faire un commit sur votre branche principale, procéder à une nouvelle fusion et résoudre les conflits éventuels.
-
-*Bonus* : `git rebase` permet aussi de fusionner deux branches.
 
 > Réfléchir à de bonnes pratiques.
 
@@ -69,6 +67,11 @@ Il est possible de créer d'autres branches et de basculer vers celles-ci afin d
 - Il est possible de naviguer entre différents commits :
 
     > git checkout <commit_sha>
+
+## Expérimentations bonus
+
+- `git rebase` permet aussi de fusionner deux branches.
+- `git cherry-pick` permet d'intégrer un commit depuis une autre branche.
 
 ## Bonnes pratiques
 

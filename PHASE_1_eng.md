@@ -62,7 +62,38 @@ During this step, we will review the basic Git commands and make our first commi
 
 ## Notes
 
-- There are guides/conventions ([see here](https://www.conventionalcommits.org/en/v1.0.0/#specification), [or here](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) that define how commit messages should be written. This convention is more a matter of software engineering best practices.
+### Commit Messages
+
+There are guides/conventions ([see here](https://www.conventionalcommits.org/en/v1.0.0/#specification), [or here](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) that define how commit messages should be written. This convention is more a matter of software engineering best practices.
+
+In general, you can follow these simple guidelines:
+
+- prefer a short message (50 characters maximum);
+- provide context if needed;
+- separate changes.
+
+> Can I understand what this commit does just from its commit message?
+
+The most common format is:
+
+```bash
+type: short summary
+```
+
+The most commonly used types are:
+
+```yaml
+add: adding a new file
+feat: adding a feature
+fix: bug fix
+docs: documentation
+refactor: change with no functional impact
+test: adding/modifying tests
+wip: (work in progress) dedicated to development branches
+chore: changes related to your repository configuration
+```
+
+> &#x1F4A1; A good commit message goes hand in hand with a good grouping/breakdown of your changes in your commit.
 
 ## Best Practices
 

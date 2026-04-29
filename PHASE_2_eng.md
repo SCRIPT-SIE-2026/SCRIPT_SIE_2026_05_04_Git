@@ -42,13 +42,11 @@ It is possible to create other branches and switch to them in order to test a fe
 
 ## Exercises
 
-1. On the main branch, breaking these steps into several commits, create a text file and add a few lines to it.
+1. On the `main` branch, breaking these steps into several commits, create a text file and add a few lines to it.
 2. Create a new branch, add a new line to your file, and make a commit.
 3. Merge this new branch from your main branch.
 4. Undo your merge.
 5. Make a commit on your main branch, perform a new merge, and resolve any conflicts.
-
-*Bonus*: `git rebase` can also be used to merge two branches.
 
 > Think about best practices.
 
@@ -69,6 +67,11 @@ It is possible to create other branches and switch to them in order to test a fe
 - It is possible to move between different commits:
 
     > git checkout <commit_sha>
+
+## Bonus Experiments
+
+- `git rebase` can also be used to merge two branches.
+- `git cherry-pick` can be used to integrate a commit from another branch.
 
 ## Best Practices
 

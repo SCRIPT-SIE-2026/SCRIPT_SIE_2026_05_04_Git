@@ -48,7 +48,7 @@ Durant cette étape, on passera en revue les commandes de base de Git et on réa
     git reset --soft HEAD~1
     ```
 
-    > Vous pouvez remplacer `1` par un entier positif pour annuler autant de derniers commits que souhaité. Par exemple, `git reset --soft HEAD~5` annulera vos 5 derniers commits.
+    > Vous pouvez remplacer `1` par un entier positif pour annuler autant de commits récents que souhaité. Par exemple, `git reset --soft HEAD~5` annulera vos 5 derniers commits.
 
 ## Exercices
 
@@ -62,7 +62,38 @@ Durant cette étape, on passera en revue les commandes de base de Git et on réa
 
 ## Remarques
 
-- Il existe des guides/conventions ([voir ici](https://www.conventionalcommits.org/en/v1.0.0/#specification), [ou là](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) encadrant la rédaction des commits. Cette convention relève plutôt des bonnes pratiques informatiques.
+### Les messages de commit
+
+Il existe des guides/conventions ([voir ici](https://www.conventionalcommits.org/en/v1.0.0/#specification), [ou là](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)) encadrant la rédaction des commits. Cette convention relève plutôt des bonnes pratiques informatiques.
+
+En général, on peut se référer à ces conseils simples :
+
+- privilégier un message court (50 caractères maximum) ;
+- donner du contexte si besoin ;
+- séparer les changements.
+
+> Puis-je comprendre ce que fait ce commit juste avec son message de commit ?
+
+Le formalisme le plus répandu est le suivant :
+
+```bash
+type: court résumé
+```
+
+Les types souvent utilisés sont les suivants :
+
+```yaml
+add: ajout d'un nouveau fichier
+feat: ajout de fonctionnalité
+fix: correction de bug
+docs: documentation
+refactor: changement sans impact fonctionnel
+test: ajout/modification de tests
+wip: (work in progress) dédié aux branches de développement
+chore: changements relatifs à la configuration de votre dépôt
+```
+
+> &#x1F4A1; Un bon message de commit va de pair avec un bon regroupement/découpage de vos modifications dans votre commit.
 
 ## Bonnes pratiques
 
