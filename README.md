@@ -1,5 +1,4 @@
-# SCRIPT Bloc 2 : gérer des projets avec Git
-
+# SCRIPT Bloc 2 : Managing Projects with Git
 ## Prérequis
 
 Cette formation nécessite certains prérequis qui devront être **remplis avant la formation**.
