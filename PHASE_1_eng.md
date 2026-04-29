@@ -21,7 +21,7 @@ During this step, we will review the basic Git commands and make our first commi
 - Add a file to tracking:
 
     ```bash
-    git add mon_fichier.txt
+    git add my_file.txt
     ```
 
 - Make a commit:
@@ -94,6 +94,12 @@ chore: changes related to your repository configuration
 ```
 
 > &#x1F4A1; A good commit message goes hand in hand with a good grouping/breakdown of your changes in your commit.
+
+Here’s a simple example: I’ve added a new section to a document: 
+
+```yaml
+feat: add new section ‘Chapter 1: Were Ross and Rachel on a break?’
+```
 
 ## Best Practices
 

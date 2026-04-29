@@ -23,21 +23,21 @@ It is possible to create other branches and switch to them in order to test a fe
 - Switch from one branch to another:
 
     ```bash
-    git switch votre_nouvelle_branche
+    git switch your_new_branch
     ```
 
     **Note**: to switch to a branch, that branch must exist. You can add the `-c` option to create a new branch and switch to it:
 
     ```bash
-    git switch -c votre_nouvelle_branche
+    git switch -c your_new_branch
     ```
 
-    > You can also use the commands `git checkout votre_nouvelle_branche` and `git checkout -b votre_nouvelle_branche` to do the same thing.
+    > You can also use the commands `git checkout your_new_branch` and `git checkout -b your_new_branch` to do the same thing.
 
 - Merge two branches:
 
     ```bash
-    git merge votre_nouvelle_branche
+    git merge your_new_branch
     ```
 
 ## Exercises

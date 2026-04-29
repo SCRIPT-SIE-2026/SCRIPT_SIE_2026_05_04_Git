@@ -1,5 +1,7 @@
 # Comprendre les branches
 
+*An english version of this document is available [here](PHASE_2_eng.md).*
+
 Par défaut, vos commits sont créés sur la branche principale de votre projet, nommée `main` ou `master`.
 Une branche est un pointeur vers un commit.
 Il est possible de créer d'autres branches et de basculer vers celles-ci afin de tester une fonctionnalité avant de l'intégrer à votre branche principale, par exemple.

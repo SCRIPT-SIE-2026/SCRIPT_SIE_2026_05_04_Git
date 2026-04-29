@@ -1,5 +1,7 @@
 # Travail collaboratif
 
+*An english version of this document is available [here](PHASE_3_eng.md).*
+
 Durant cette étape, vous devrez produire un document LaTeX en commun avec les autres personnes de la formation.
 La production prendra la forme **d'un dépôt sur GitHub** dans le groupe de travail `SCRIPT-SIE-2026`.
 Nous vous fournissons des modèles de fichiers LaTeX disponibles dans le dépôt suivant : [ici](https://github.com/SCRIPT-SIE-2026/SCRIPT_SIE_2026_05_04_Git_Templates.git).

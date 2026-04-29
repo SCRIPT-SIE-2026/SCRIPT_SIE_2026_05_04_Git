@@ -1,5 +1,7 @@
 # Travailler localement avec Git
 
+*An english version of this document is available [here](PHASE_1_eng.md).*
+
 Durant cette étape, on passera en revue les commandes de base de Git et on réalisera nos premiers commits.
 
 ## Les commandes de base
@@ -94,6 +96,12 @@ chore: changements relatifs à la configuration de votre dépôt
 ```
 
 > &#x1F4A1; Un bon message de commit va de pair avec un bon regroupement/découpage de vos modifications dans votre commit.
+
+Un exemple simple, j'ai ajouté une nouvelle section à un document : 
+
+```yaml
+feat: add new section "Chapter 1: Were Ross and Rachel on a break ?"
+```
 
 ## Bonnes pratiques
 
