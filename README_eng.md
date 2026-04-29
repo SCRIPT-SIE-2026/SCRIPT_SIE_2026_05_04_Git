@@ -11,11 +11,11 @@ This training course requires several pieces of software to be installed on your
 
 - Visual Studio Code, available here: [VS Code](https://code.visualstudio.com/download)
 
-**Note**: if you are using Windows, make sure you install the **"System Installer"** version.
+    **Note**: if you are using Windows, make sure you install the **"System Installer"** version.
 
 - A complete LaTeX installation. An installation guide is available here: [guide](https://lcharleux.github.io/SIE_SCRIPT_tutorial/courses/latex/#prerequisites)
 
-**Note**: if you are using Windows, make sure you install **Strawberry Perl** ([downloadable here](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54221_64bit/strawberry-perl-5.42.2.1-64bit.msi)).
+    **Note**: if you are using Windows, make sure you install **Strawberry Perl** ([downloadable here](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54221_64bit/strawberry-perl-5.42.2.1-64bit.msi)).
 
 - Git. Our installation and configuration guide is available here: [guide](https://lcharleux.github.io/SIE_SCRIPT_tutorial/courses/git/#installation-instructions).
 
