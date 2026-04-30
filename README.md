@@ -1,4 +1,6 @@
 # SCRIPT Bloc 2 : Managing Projects with Git
+*An english version of this document is available [here](README_eng.md).*
+
 ## Prérequis
 
 Cette formation nécessite certains prérequis qui devront être **remplis avant la formation**.
