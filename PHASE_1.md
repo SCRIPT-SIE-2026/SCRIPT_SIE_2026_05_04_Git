@@ -105,4 +105,6 @@ feat: add new section "Chapter 1: Were Ross and Rachel on a break ?"
 
 ## Bonnes pratiques
 
-...
+- Rassembler dans un même commit les modifications liées à un sujet ou à une fonctionnalité.
+- Toujours créer un fichier .gitignore dès le début du projet.
+- Préférer committer les fichiers sources plutôt que les binaires générés.

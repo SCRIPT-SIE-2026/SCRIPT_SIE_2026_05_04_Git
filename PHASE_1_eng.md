@@ -103,4 +103,6 @@ feat: add new section ‘Chapter 1: Were Ross and Rachel on a break?’
 
 ## Best Practices
 
-...
+- Group changes related to the same topic or feature into a single commit.
+- Always create a .gitignore file at the beginning of the project.
+- Prefer committing source files rather than generated binaries.
